@@ -10,6 +10,7 @@
 (require 'init_linum-relative)
 (require 'init_android-mode)
 (require 'init_highlight-parentheses)
+(require 'init_yesnippet)
 ;;android-mode
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -18,7 +19,7 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (highlight-parentheses android-mode linum-relative direx dired+ auto-complete))))
+    (yasnippet highlight-parentheses android-mode linum-relative direx dired+ auto-complete))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

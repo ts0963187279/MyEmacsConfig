@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: Header File Template
+# key: HEADER
+# --
+using namespace std;
+#include <iostream>
+
+int main(){
+    return 0;
+}
+
